@@ -1,0 +1,34 @@
+@keyframes showItemFromRight {
+  from {
+    transform:  translateX(30px) scaleX(1.1);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.box2 {
+  float:right;
+  position:relative;
+  transition: .5s ease;
+ }
+
+.text2 {
+  font-family:"NanumSquare", San-serif;
+  font-size : 40px;
+  position:absolute;
+  visibility:hidden;
+ }
+
+.box2:hover {
+  opacity:0.7;
+ }
+
+.box2:hover .text2 {
+  animation-name: showItemFromRight;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+   visibility:visible;
+ }    
