@@ -4,6 +4,7 @@ to {opacity : 1;}
 }
 
 body {
+	text-align:center
 	animation-name: fadein;
 	animation-duration: 3s;
 	animation-timing-function: ease-in-out;
