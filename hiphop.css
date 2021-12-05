@@ -10,6 +10,8 @@
   }
 }
 .box2 {
+  margin-top:250px;
+  margin-right:40px;
   float:right;
   position:relative;
   transition: .5s ease;
