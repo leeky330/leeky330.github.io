@@ -3,7 +3,7 @@ from {opacity : 0;}
 to {opacity : 1;}
 }
 
-body {
+body.main {
 	animation-name: fadeIn;
 	animation-duration: 3s;
 	animation-timing-function: ease-in-out;
