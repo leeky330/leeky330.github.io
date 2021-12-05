@@ -7,6 +7,6 @@ body {
 	animation-name: fadein;
 	animation-duration: 3s;
 	animation-timing-function: ease-in-out;
-	animation-delay: 2s;
+	animation-delay: 0s;
 	animation-iteration-count: 1;
 }
